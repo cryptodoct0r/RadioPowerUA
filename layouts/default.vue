@@ -1,0 +1,49 @@
+<template>
+  <div>
+    <nuxt />
+  </div>
+</template>
+
+<style lang="scss">
+// Global styling for this template
+body,
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+// Typography
+.text-white-75 {
+  color: fade-out(white, 0.25);
+}
+
+// Custom horizontal rules
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: $primary;
+}
+
+hr.light {
+  border-color: white;
+}
+
+// Button restyling
+.btn {
+  font-family: $font-family-sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+// Page section padding
+.page-section {
+  padding: 2rem 0;
+}
+</style>
