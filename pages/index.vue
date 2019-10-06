@@ -192,13 +192,13 @@
           <div class="player__top">
             <div class="player-cover">
               <div
-                class="player-cover__item"
-                style="background-image: url(https://images.unsplash.com/photo-1566663839087-89f4372ce32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position: top center; "
+                class="player-cover__item one"
+                style="background-position: top center; "
               />
             </div>
-            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+            <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Emmanuel  Turkson</h4>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+              <P>"An ardent student of life. A work in progress" favourite quote:  "I laugh when I hear the fish in the water is thirsty"</P>
             </div>
           </div>
         </div>
@@ -211,7 +211,7 @@
                 style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
               />
             </div>
-            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+            <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Joana Opoku</h4>
               <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
             </div>
@@ -227,7 +227,7 @@
                 style="background-image: url(https://images.unsplash.com/photo-1566663839087-89f4372ce32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position: top center; "
               />
             </div>
-            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+            <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Enoch Puoro</h4>
               <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
             </div>
@@ -242,7 +242,7 @@
                 style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
               />
             </div>
-            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+            <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Joana Opoku</h4>
               <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
             </div>
@@ -612,6 +612,7 @@ input.btn-send {
     }
 
     &__item {
+      // background-image: url(~assets/img/emmanuelT.jpeg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -661,6 +662,10 @@ input.btn-send {
       pointer-events: none;
     }
   }
+}
+
+.one {
+  background-image: url(~assets/img/emmanuelT.jpeg);
 }
 
 .chevron-container {
