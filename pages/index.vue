@@ -112,7 +112,7 @@
                   rows="4"
                   required
                 />
-                </label>
+              </label>
               <label data-aos="fade-up" for="submit" class="form-group mx-auto">
                 <input
                   id="submit"
@@ -140,9 +140,12 @@
     </section>
 
     <section class="page-section">
-      <h3 class="text-center">
-        Start Listening Live!
-      </h3>
+      <h2 class="text-center">
+        Start Listening
+        <div class="logo">
+          <b>L<span>i</span>v<span>e!</span>!</b>
+        </div>
+      </h2>
       <div class="wrapper">
         <div class="player">
           <div class="player__top">
@@ -176,7 +179,7 @@
             </h2>
             <hr class="divider light my-4">
             <p class="text-white-50 mb-4">
-              Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
+              Radio Power UA has everything you need to get your day up and running in no time! Choose one of our daily programs, free to listen, and easy to contribute! No strings attached!
             </p>
           </div>
         </div>
@@ -188,82 +191,82 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/1.jpg" alt="">
+            <nuxt-link class="portfolio-box" to="#">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1530530698525-77a06a1088f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-75">
                   Monday
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  School Talks
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/2.jpg">
+            <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/2.jpg" alt="">
               <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-50">
                   Teusday
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  Life Talks
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/3.jpg" alt="">
+            <nuxt-link class="portfolio-box" to="#">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-50">
                   Wednesdays
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  Love and Relationships
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/4.jpg">
+            <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/4.jpg" alt="">
               <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-50">
                   Thursday
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  Open house discussions
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/5.jpg" alt="">
+            <nuxt-link class="portfolio-box" to="#">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1546074177-9e4787e95be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-50">
                   Friday
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  Celebrity Interviews
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="~/assets/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/6.jpg" alt="">
+            <nuxt-link class="portfolio-box" to="#">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1539963011628-c076c7870cad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption p-3">
-                <div class="project-category text-white-50">
+                <h3 class="project-category text-white-50">
                   Saturday
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
+                </h3>
+                <h4 class="project-name">
+                  Round Table Discussions
+                </h4>
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -402,6 +405,19 @@ export default {
   }
 }
 
+#about {
+  background: linear-gradient(
+      115deg,
+      rgba(54, 54, 54, 0.5) -4.64%,
+      rgba(35, 36, 36, 0.5) 51.9%
+    ),
+    url("https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 form {
   margin-bottom: 20px;
 }
@@ -417,7 +433,18 @@ textarea {
 
 input.btn-send {
   color: white;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
   font-size: 20px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
   &:hover,
   &:focus {
     background: transparent;
@@ -684,7 +711,7 @@ input.btn-send {
         text-align: center;
         .project-category {
           font-family: $font-family-sans-serif;
-          font-size: 0.85rem;
+          // font-size: 0.85rem;
           font-weight: 600;
           text-transform: uppercase;
         }
@@ -698,6 +725,61 @@ input.btn-send {
         }
       }
     }
+  }
+}
+
+// neon lights
+
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+.logo {
+  text-align: center;
+  margin: auto;
+  user-select: none;
+}
+
+.logo b {
+  font: 400 4rem "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
+    0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
   }
 }
 </style>

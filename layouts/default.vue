@@ -12,6 +12,16 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  background: url(https://previews.123rf.com/images/1stchoice/1stchoice1607/1stchoice160700017/59848409-light-gray-background-with-soft-texture.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
 // Typography
 .text-white-75 {
   color: fade-out(white, 0.25);
@@ -28,9 +38,31 @@ hr.light {
   border-color: white;
 }
 
-// Button restyling
 .btn {
-  font-family: $font-family-sans-serif;
+  clear: both;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.4;
+}
+.btn:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .btn-xl {
