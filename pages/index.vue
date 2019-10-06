@@ -12,7 +12,7 @@
           </div>
           <div class="col-lg-8 align-self-baseline">
             <h5 class="text-white-75 font-weight-light mb-2">
-              Get in touch with us anytime anyday
+              Send your questions, requests and more.
             </h5>
             <form
               id="form-box"
@@ -109,7 +109,7 @@
                   class="form-control"
                   placeholder="Write your message"
                   cols="30"
-                  rows="1"
+                  rows="2"
                   required
                 />
               </label>
@@ -186,6 +186,7 @@
       <h2 class="text-center">
         Our Anchors
       </h2>
+      <hr class="divider mt-4">
       <div class="wrapper py-5">
         <div class="player mx-auto my-5 my-md-2 col-md-4">
           <div class="player__top">
@@ -253,6 +254,10 @@
     <!-- Portfolio Section -->
     <section id="portfolio">
       <div class="container-fluid p-0">
+        <h2 class="mt-0 text-center">
+          Weeks Schedule.
+        </h2>
+        <hr class="divider my-4">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
             <nuxt-link class="portfolio-box" to="" @click.prevent>
