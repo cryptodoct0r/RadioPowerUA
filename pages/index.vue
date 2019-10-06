@@ -109,10 +109,10 @@
                   class="form-control"
                   placeholder="Write your message"
                   cols="30"
-                  rows="4"
+                  rows="1"
                   required
                 />
-              </label>
+                </label>
               <label data-aos="fade-up" for="submit" class="form-group mx-auto">
                 <input
                   id="submit"
@@ -155,14 +155,17 @@
                 style="background-image: url(https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg);"
               />
             </div>
-            <div class="player-iframe text-center mx-auto">
-              <iframe
+            <div class="player-iframe text-center mx-auto mt-5">
+              <audio controls class="mx-auto mt-5">
+                <source src="https://streaming.radio.co/saa30502bd/listen">
+              </audio>
+              <!-- <iframe
                 src="https://streaming.radio.co/saa30502bd/listen"
                 frameborder="0"
                 width="260px"
                 height="auto"
                 class="mx-auto"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -194,7 +197,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="https://images.unsplash.com/photo-1530530698525-77a06a1088f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <h3 class="project-category text-white-75">
+                <h3 class="project-category">
                   Monday
                 </h3>
                 <h4 class="project-name">
@@ -207,7 +210,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/2.jpg" alt="">
               <div class="portfolio-box-caption">
-                <h3 class="project-category text-white-50">
+                <h3 class="project-category ">
                   Teusday
                 </h3>
                 <h4 class="project-name">
@@ -220,7 +223,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <h3 class="project-category text-white-50">
+                <h3 class="project-category ">
                   Wednesdays
                 </h3>
                 <h4 class="project-name">
@@ -233,7 +236,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/4.jpg" alt="">
               <div class="portfolio-box-caption">
-                <h3 class="project-category text-white-50">
+                <h3 class="project-category ">
                   Thursday
                 </h3>
                 <h4 class="project-name">
@@ -246,7 +249,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="https://images.unsplash.com/photo-1546074177-9e4787e95be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
-                <h3 class="project-category text-white-50">
+                <h3 class="project-category ">
                   Friday
                 </h3>
                 <h4 class="project-name">
@@ -259,7 +262,7 @@
             <nuxt-link class="portfolio-box" to="#">
               <img class="img-fluid" src="https://images.unsplash.com/photo-1539963011628-c076c7870cad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption p-3">
-                <h3 class="project-category text-white-50">
+                <h3 class="project-category ">
                   Saturday
                 </h3>
                 <h4 class="project-name">
@@ -510,6 +513,12 @@ input.btn-send {
     @media screen and (max-width: 425px) {
       top: 100px;
     }
+
+    audio {
+      @media screen and (max-width: 350px) {
+        width: 260px;
+      }
+    }
   }
 
   &-cover {
@@ -722,6 +731,16 @@ input.btn-send {
       &:hover {
         .portfolio-box-caption {
           opacity: 1;
+        }
+      }
+      @media screen and (max-width: 780px) {
+        .portfolio-box-caption {
+          opacity: 0.8;
+
+          .project-category,
+          .project-nane {
+            opacity: 1;
+          }
         }
       }
     }
