@@ -255,7 +255,7 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="https://images.unsplash.com/photo-1530530698525-77a06a1088f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category">
@@ -268,7 +268,7 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/2.jpg" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
@@ -281,7 +281,7 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
@@ -294,7 +294,7 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/4.jpg" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
@@ -307,7 +307,7 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="https://images.unsplash.com/photo-1546074177-9e4787e95be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
@@ -320,7 +320,7 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="#">
+            <nuxt-link class="portfolio-box" to="" @click.prevent>
               <img class="img-fluid" src="https://images.unsplash.com/photo-1539963011628-c076c7870cad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
               <div class="portfolio-box-caption p-3">
                 <h3 class="project-category ">
@@ -386,7 +386,7 @@
     <footer class="bg-light py-5">
       <div class="container">
         <h5 class="medium text-center text-muted">
-          Made with ❤️ &copy; in 2019 - {{ new Date().getFullYear() }} By <a href="https://neniemsu.com">NeniEmsu</a>
+          Made with ❤️ &copy; in 2019 - {{ new Date().getFullYear() }} By <a href="https://neniemsu.com" target="_blank" rel="author">NeniEmsu</a>
         </h5>
       </div>
     </footer>
