@@ -112,7 +112,7 @@
                   rows="1"
                   required
                 />
-                </label>
+              </label>
               <label data-aos="fade-up" for="submit" class="form-group mx-auto">
                 <input
                   id="submit"
@@ -124,7 +124,7 @@
               </label>
             </form>
             <nuxt-link
-              v-scroll-to="'#about'"
+              v-scroll-to="'#listen'"
               to="/"
             >
               <div class="chevron-container mx-auto">
@@ -139,7 +139,7 @@
       </div>
     </section>
 
-    <section class="page-section">
+    <section id="listen" class="page-section">
       <h2 class="text-center">
         Start Listening
         <div class="logo">
@@ -159,13 +159,6 @@
               <audio controls class="mx-auto mt-5">
                 <source src="https://streaming.radio.co/saa30502bd/listen">
               </audio>
-              <!-- <iframe
-                src="https://streaming.radio.co/saa30502bd/listen"
-                frameborder="0"
-                width="260px"
-                height="auto"
-                class="mx-auto"
-              /> -->
             </div>
           </div>
         </div>

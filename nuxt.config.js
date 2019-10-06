@@ -6,17 +6,17 @@ export default {
   head: {
     title: process.env.npm_package_name || '',
     meta: [{
-        charset: 'utf-8'
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+      charset: 'utf-8'
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1'
+    },
+    {
+      hid: 'description',
+      name: 'description',
+      content: process.env.npm_package_description || ''
+    }
     ],
     link: [{
       rel: 'icon',
@@ -51,9 +51,22 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     'bootstrap-vue/nuxt',
-
+    'nuxt-rfg-icon',
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['vue-scrollto/nuxt', {
+      container: 'body',
+      duration: 500,
+      easing: 'ease-in-out',
+      offset: 0,
+      force: true,
+      cancelable: true,
+      onStart: false,
+      onDone: false,
+      onCancel: false,
+      x: false,
+      y: true
+    }]
   ],
 
   styleResources: {
@@ -68,6 +81,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend (config, ctx) {}
   }
 }
