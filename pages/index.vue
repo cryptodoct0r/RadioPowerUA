@@ -370,10 +370,12 @@
           <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
             <i class="fab fa-telegram fa-3x mb-3 text-muted" />
 
-            <a
+            <nuxt-link
               class="d-block"
-              href="https://web.telegram.org/#/im?p=c1231729418_435351677776982262"
-            >Telegram Channel</a>
+              to=""
+            >
+              Telegram Channel
+            </nuxt-link>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 text-muted" />
