@@ -11,7 +11,7 @@
             <hr class="divider my-4">
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <h5 class="text-white-75 font-weight-light mb-5">
+            <h5 class="text-white-75 font-weight-light mb-2">
               Get in touch with us anytime anyday
             </h5>
             <form
@@ -182,6 +182,74 @@
       </div>
     </section>
 
+    <section id="listen" class="page-section">
+      <h2 class="text-center">
+        Our Anchors
+      </h2>
+      <div class="wrapper py-5">
+        <div class="player mx-auto my-5 my-md-2 col-md-4">
+          <div class="player__top">
+            <div class="player-cover">
+              <div
+                class="player-cover__item"
+                style="background-image: url(https://images.unsplash.com/photo-1566663839087-89f4372ce32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position: top center; "
+              />
+            </div>
+            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+              <h4>Emmanuel  Turkson</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+            </div>
+          </div>
+        </div>
+
+        <div class="player mx-auto my-5 my-md-2 col-md-4">
+          <div class="player__top">
+            <div class="player-cover">
+              <div
+                class="player-cover__item"
+                style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
+              />
+            </div>
+            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+              <h4>Joana Opoku</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper py-5">
+        <div class="player mx-auto my-5 my-md-2 col-md-4">
+          <div class="player__top">
+            <div class="player-cover">
+              <div
+                class="player-cover__item"
+                style="background-image: url(https://images.unsplash.com/photo-1566663839087-89f4372ce32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position: top center; "
+              />
+            </div>
+            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+              <h4>Enoch Puoro</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+            </div>
+          </div>
+        </div>
+
+        <div class="player mx-auto my-5 my-md-2 col-md-4">
+          <div class="player__top">
+            <div class="player-cover">
+              <div
+                class="player-cover__item"
+                style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
+              />
+            </div>
+            <div class="player-iframe text-center mx-auto mt-md-5 text-white">
+              <h4>Joana Opoku</h4>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Portfolio Section -->
     <section id="portfolio">
       <div class="container-fluid p-0">
@@ -204,7 +272,7 @@
               <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/2.jpg" alt="">
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
-                  Teusday
+                  Tuesday
                 </h3>
                 <h4 class="project-name">
                   Life Talks
@@ -317,9 +385,9 @@
     <!-- Footer -->
     <footer class="bg-light py-5">
       <div class="container">
-        <div class="small text-center text-muted">
-          Made &copy;2019 - {{ new Date().getFullYear() }} By <a href="https://neniemsu.com">NeniEmsu</a>
-        </div>
+        <h5 class="medium text-center text-muted">
+          Made with ❤️ &copy; in 2019 - {{ new Date().getFullYear() }} By <a href="https://neniemsu.com">NeniEmsu</a>
+        </h5>
       </div>
     </footer>
   </div>
