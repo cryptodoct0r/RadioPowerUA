@@ -188,7 +188,7 @@
       </h2>
       <hr class="divider mt-4">
       <div class="wrapper py-5">
-        <div class="player mx-auto my-5 my-md-2 col-md-4">
+        <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
               <div
@@ -197,29 +197,29 @@
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
-              <h4>Emmanuel  Turkson</h4>
+              <h4>Nuel</h4>
               <P>"An ardent student of life. A work in progress" favourite quote:  "I laugh when I hear the fish in the water is thirsty"</P>
             </div>
           </div>
         </div>
 
-        <div class="player mx-auto my-5 my-md-2 col-md-4">
+        <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
               <div
                 class="player-cover__item"
-                style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
+                style="background-image: url(https://media.licdn.com/dms/image/C5603AQEaONu0ek_84Q/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=ijGlar4OU5NpNHLo7rwEjVWKyQfDDLsT4oI3nyAiqgs); background-position: top center; "
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
-              <h4>Joana Opoku</h4>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+              <h4>Joan</h4>
+              <P>A charismatic active young woman who is non apologetic to say her mind and live by it. A true african woman in her prime.</P>
             </div>
           </div>
         </div>
       </div>
-      <div class="wrapper py-5">
-        <div class="player mx-auto my-5 my-md-2 col-md-4">
+      <div class="wrapper pb-5">
+        <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
               <div
@@ -228,13 +228,13 @@
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
-              <h4>Enoch Puoro</h4>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+              <h4>Malcom</h4>
+              <P>Life is inherently risky. There is only one big risk you should avoid at all costs, and that is the risk of doing nothing.</P>
             </div>
           </div>
         </div>
 
-        <div class="player mx-auto my-5 my-md-2 col-md-4">
+        <!-- <div class="player mx-auto my-5 my-md-2 col-md-4">
           <div class="player__top">
             <div class="player-cover">
               <div
@@ -247,7 +247,7 @@
               <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
