@@ -192,7 +192,7 @@
           <div class="player__top">
             <div class="player-cover">
               <div
-                class="player-cover__item one"
+                class="player-cover__item nuel"
                 style="background-position: top center; "
               />
             </div>
@@ -207,8 +207,8 @@
           <div class="player__top">
             <div class="player-cover">
               <div
-                class="player-cover__item"
-                style="background-image: url(https://media.licdn.com/dms/image/C5603AQEaONu0ek_84Q/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=ijGlar4OU5NpNHLo7rwEjVWKyQfDDLsT4oI3nyAiqgs); background-position: top center; "
+                class="player-cover__item joan"
+                style="background-position: top center;"
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
@@ -664,8 +664,12 @@ input.btn-send {
   }
 }
 
-.one {
+.nuel {
   background-image: url(~assets/img/emmanuelT.jpeg);
+}
+
+.joan{
+  background-image: url(~assets/img/joan.jpeg);
 }
 
 .chevron-container {
