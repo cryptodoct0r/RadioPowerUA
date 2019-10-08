@@ -229,7 +229,7 @@
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Malcom</h4>
-              <P>3rd yr med student from Ghana Love reading (novels)and writing I feel like we are all on a mission in this world and we should strive each and everyday to make a proactive step towards the achievement of our mission</P>
+              <P>Med student from Ghana, Love novels and writing. I feel like we are all on a mission in this world and should strive everyday to make proactive steps towards the achievement of that mission.</P>
             </div>
           </div>
         </div>
