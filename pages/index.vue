@@ -112,7 +112,7 @@
                   rows="2"
                   required
                 />
-              </label>
+                </label>
               <label data-aos="fade-up" for="submit" class="form-group mx-auto">
                 <input
                   id="submit"
@@ -157,7 +157,7 @@
             </div>
             <div class="player-iframe text-center mx-auto mt-5">
               <audio controls class="mx-auto mt-5">
-                <source src="https://streaming.radio.co/saa30502bd/listen">
+                <source src="https://node-08.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ">
               </audio>
             </div>
           </div>
@@ -223,13 +223,13 @@
           <div class="player__top">
             <div class="player-cover">
               <div
-                class="player-cover__item"
-                style="background-image: url(https://images.unsplash.com/photo-1566663839087-89f4372ce32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position: top center; "
+                class="player-cover__item melcom"
+                style="background-position: top center; "
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Malcom</h4>
-              <P>Life is inherently risky. There is only one big risk you should avoid at all costs, and that is the risk of doing nothing.</P>
+              <P>3rd yr med student from Ghana Love reading (novels)and writing I feel like we are all on a mission in this world and we should strive each and everyday to make a proactive step towards the achievement of our mission</P>
             </div>
           </div>
         </div>
@@ -670,6 +670,10 @@ input.btn-send {
 
 .joan {
   background-image: url(~assets/img/joan.jpeg);
+}
+
+.melcom {
+  background-image: url(~assets/img/melcom.jpeg);
 }
 
 .bolu {
