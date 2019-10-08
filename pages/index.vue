@@ -187,7 +187,7 @@
         Our Anchors
       </h2>
       <hr class="divider mt-4">
-      <div class="wrapper py-5">
+      <div class="wrapper pt-5">
         <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
@@ -218,7 +218,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper pb-5">
+      <div class="wrapper py-5">
         <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
@@ -234,20 +234,20 @@
           </div>
         </div>
 
-        <!-- <div class="player mx-auto my-5 my-md-2 col-md-4">
+        <div class="player mx-auto my-5 my-md-2 col-md-4">
           <div class="player__top">
             <div class="player-cover">
               <div
-                class="player-cover__item"
-                style="background-image: url(https://images.unsplash.com/photo-1486044938437-01b06ad8098d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80); background-position: top center; "
+                class="player-cover__item bolu"
+                style="background-position: top center; "
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
-              <h4>Joana Opoku</h4>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse quos illo magni, repellat nemo!</P>
+              <h4>Ogunjumelo Boluwatifemito</h4>
+              <P>Medical student 3rd year My energy 💯</P>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </section>
 
@@ -668,8 +668,12 @@ input.btn-send {
   background-image: url(~assets/img/emmanuelT.jpeg);
 }
 
-.joan{
+.joan {
   background-image: url(~assets/img/joan.jpeg);
+}
+
+.bolu {
+  background-image: url(~assets/img/bolu.jpeg);
 }
 
 .chevron-container {
