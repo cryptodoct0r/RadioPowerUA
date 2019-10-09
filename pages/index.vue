@@ -229,7 +229,7 @@
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Malcom</h4>
-              <P>Med student from Ghana, Love novels and writing. "We are all here on a mission in this world and should strive everyday to make proactive steps towards achieving that mission."</P>
+              <P>Med student from Ghana, Love novels and writing. "We are all here on a mission and should strive everyday to make proactive steps towards achieving that mission."</P>
             </div>
           </div>
         </div>
