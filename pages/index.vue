@@ -239,7 +239,7 @@
             <div class="player-cover">
               <div
                 class="player-cover__item bolu"
-                style="background-position: top center; "
+                style="background-position: top center;"
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
