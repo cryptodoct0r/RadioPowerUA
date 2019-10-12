@@ -234,7 +234,7 @@
           </div>
         </div>
 
-        <div class="player mx-auto my-5 my-md-2 col-md-4">
+        <div class="player mx-auto my-5 my-md-2">
           <div class="player__top">
             <div class="player-cover">
               <div
