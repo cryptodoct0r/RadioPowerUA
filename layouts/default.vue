@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: url(https://previews.123rf.com/images/1stchoice/1stchoice1607/1stchoice160700017/59848409-light-gray-background-with-soft-texture.jpg)
+  background: url(~assets/img/backgroundImage.jpg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
