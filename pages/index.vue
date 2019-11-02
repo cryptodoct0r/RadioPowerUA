@@ -112,7 +112,7 @@
                   rows="2"
                   required
                 />
-                </label>
+              </label>
               <label data-aos="fade-up" for="submit" class="form-group mx-auto">
                 <input
                   id="submit"
@@ -341,6 +341,8 @@
       </div>
     </section>
 
+    <TheSchedule />
+
     <!-- Contact Section -->
     <section id="contact" class="page-section">
       <div class="container">
@@ -403,10 +405,12 @@
 <script>
 import axios from 'axios'
 import TheHeader from '~/components/TheHeader.vue'
+import TheSchedule from '~/components/TheSchedule'
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    TheSchedule
   },
   data () {
     return {
