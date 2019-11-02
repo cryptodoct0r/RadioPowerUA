@@ -341,7 +341,7 @@
       </div>
     </section>
 
-    <TheSchedule />
+    <!-- <TheSchedule /> -->
 
     <!-- Contact Section -->
     <section id="contact" class="page-section">
@@ -405,12 +405,12 @@
 <script>
 import axios from 'axios'
 import TheHeader from '~/components/TheHeader.vue'
-import TheSchedule from '~/components/TheSchedule'
+// import TheSchedule from '~/components/TheSchedule'
 
 export default {
   components: {
-    TheHeader,
-    TheSchedule
+    TheHeader
+    // TheSchedule
   },
   data () {
     return {
