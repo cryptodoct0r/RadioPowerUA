@@ -156,7 +156,7 @@
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5">
-              <audio controls autoplay preload class="mx-auto mt-5">
+              <audio controls autoplay class="mx-auto mt-5">
                 <source src="https://node-08.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ">
               </audio>
             </div>
