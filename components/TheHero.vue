@@ -311,23 +311,23 @@ input.btn-send {
 
 // @import url(//fonts.googleapis.com/css?family=Vibur);
 
-.logo {
+.logo h1 {
   user-select: none;
 }
 
-.logo b {
+.logo h1 b {
   font: 400 4rem "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
     0 0 0.1em #ff4444, 0 10px 3px #000;
 }
-.logo b span {
+.logo h1 b span {
   animation: blink linear infinite 2s;
 }
-.logo b span:nth-of-type(2) {
+.logo h1 b span:nth-of-type(2) {
   animation: blink linear infinite 3s;
 }
-.logo b span:nth-of-type(3) {
+.logo h1 b span:nth-of-type(3) {
   animation: blink ease infinite 5s;
 }
 @keyframes blink {
