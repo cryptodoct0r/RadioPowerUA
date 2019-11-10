@@ -419,18 +419,17 @@
     <div class="container mb-4">
       <div class="row">
         <div class="col-sm-4 my-2">
-          <div class="jeg_wrapper wpb_wrapper">
+          <div>
             <div class="text-center">
-              <figure class="wpb_wrapper vc_figure">
+              <figure>
                 <a
                   href="https://zeno.fm/radiopower-ua"
                   target="_blank"
-                  class="vc_single_image-wrapper   vc_box_border_grey"
                 >
                   <svg
                     viewBox="0 0 140.55 54.35"
-                    width="150"
-                    height="150"
+                    width="120"
+                    height="120"
                   >
                     <g>
                       <path
@@ -478,56 +477,53 @@
                   </svg>
                 </a>
               </figure>
-              <h4 class="wpb_heading wpb_singleimage_heading">
+              <h5>
                 Zeno Media
-              </h4>
+              </h5>
             </div>
           </div>
         </div>
         <div class="col-sm-4 my-2">
-          <div class="jeg_wrapper wpb_wrapper">
+          <div>
             <div class="text-center">
-              <figure class="wpb_wrapper vc_figure">
+              <figure>
                 <a
                   href="https://tunein.com/radio/RadiopowerUA-s300866/"
                   target="_blank"
-                  class="vc_single_image-wrapper   vc_box_border_grey"
                 ><img
-                  width="150"
-                  height="150"
+                  width="120"
+                  height="120"
                   src="http://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg"
                   class="img-fluid rounded-circle"
                   alt=""
                   sizes="(max-width: 150px) 100vw, 150px"
                 ></a>
               </figure>
-              <h4 class="wpb_heading wpb_singleimage_heading">
+              <h5>
                 TuneIN.com
-              </h4>
+              </h5>
             </div>
           </div>
         </div>
         <div class="col-sm-4 my-2">
-          <div class="jeg_wrapper wpb_wrapper">
+          <div>
             <div class="text-center">
-              <figure class="wpb_wrapper vc_figure">
+              <figure>
                 <a
                   href="https://radio.garden/listen/radio-power-ua/iWTyUgC-"
                   target="_blank"
-                  class="vc_single_image-wrapper   vc_box_border_grey"
                 ><img
-                  width="150"
-                  height="150"
+                  width="120"
+                  height="120"
                   src="http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-150x150.jpg"
                   class="img-fluid rounded-circle"
                   alt=""
-                  srcset="http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-150x150.jpg 150w, http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-75x75.jpg 75w"
                   sizes="(max-width: 150px) 100vw, 150px"
                 ></a>
               </figure>
-              <h4 class="wpb_heading wpb_singleimage_heading">
+              <h5>
                 RadioGarden.com
-              </h4>
+              </h5>
             </div>
           </div>
         </div>
