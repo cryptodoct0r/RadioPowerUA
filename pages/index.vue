@@ -1,7 +1,122 @@
 <template>
   <div>
+    <b-modal
+      id="modal-1"
+      ref="modal"
+      title="Wanna be live on the show?"
+      hide-footer
+    >
+      <div
+        v-if="errors.length"
+        class="text-left text-danger"
+      >
+        <b>Please correct the following error(s):</b>
+        <ol>
+          <li
+            v-for="error in errors"
+            :key="error"
+            class="ml-3"
+          >
+            {{ error }}
+          </li>
+        </ol>
+      </div>
+      <div
+        v-if="success && !errors.length"
+        class="text-center text-success mx-auto mb-2"
+      >
+        <b>Your message has been sent succesfully</b>
+      </div>
+      <form
+        ref="form"
+        @submit.stop.prevent="checkForm"
+      >
+        <b-form-group
+          :state="nameState"
+          label="Name"
+          label-for="name-input"
+          invalid-feedback="Name is required"
+        >
+          <b-form-input
+            id="name-input"
+            v-model="name"
+            :state="nameState"
+            required
+          />
+        </b-form-group>
+        <b-form-group
+          :state="nameState"
+          label="Number"
+          label-for="number-input"
+          invalid-feedback="Number is required"
+        >
+          <b-form-input
+            id="number-input"
+            v-model="phone"
+            :state="numberState"
+            required
+          />
+        </b-form-group>
+        <label
+          data-aos="fade-up"
+          for="submit"
+          class="form-group mx-auto"
+        >
+          <input
+            id="submit"
+            type="submit"
+            name="submit"
+            class="btn-call"
+            value="Send"
+          >
+        </label>
+      </form>
+    </b-modal>
+    <div id="sidebar">
+      <div class="social facebook">
+        <a
+          href="https://www.facebook.com/studliferadio/"
+          target="_blank"
+        >
+          <p>Like on Facebook <i class="fab fa-facebook " /> </p>
+        </a>
+      </div>
+      <div class="social twitter">
+        <a
+          href="https://twitter.com/Radiopower_UA"
+          target="_blank"
+        >
+          <p>Follow on Twitter<i class="fab fa-twitter" /> </p>
+        </a>
+      </div>
+      <div class="social instagram">
+        <a
+          href="https://www.instagram.com/radiopower_ua/"
+          target="_blank"
+        >
+          <p>&nbsp; Follow on Instagram<i class="fab fa-instagram" /> </p>
+        </a>
+      </div>
+      <div class="social youtube">
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+        >
+          <p>Subscribe on Youtube<i class="fab fa-youtube" /> </p>
+        </a>
+      </div>
+      <div class="social call">
+        <nuxt-link
+          v-b-modal.modal-1
+          to=""
+        >
+          <p>Lets Call You!<i class="fas fa-phone" /> </p>
+        </nuxt-link>
+      </div>
+    </div>
     <TheHeader />
     <TheHero />
+
     <!-- <TheSwiper /> -->
     <!-- <section class="masthead">
       <div class="container h-100">
@@ -289,9 +404,9 @@
                 <h3 class="project-category">
                   Nuel
                 </h3>
-                <h4 class="project-name w-75">
+                <p class="project-name w-75">
                   "An ardent student of life. A work in progress" favourite quote: "I laugh when I hear the fish in the water is thirsty"
-                </h4>
+                </p>
               </div>
             </nuxt-link>
           </div>
@@ -310,9 +425,9 @@
                 <h3 class="project-category ">
                   Joan
                 </h3>
-                <h4 class="project-name w-75">
+                <p class="project-name w-75">
                   A charismatic active young woman who is non apologetic to say her mind and live by it. A true african woman in her prime.
-                </h4>
+                </p>
               </div>
             </nuxt-link>
           </div>
@@ -331,9 +446,9 @@
                 <h3 class="project-category ">
                   Malcom
                 </h3>
-                <h4 class="project-name w-75">
+                <p class="project-name w-75">
                   Med student from Ghana, Love novels and writing. "We are all here on a mission and should strive everyday to make proactive steps towards achieving that mission."
-                </h4>
+                </p>
               </div>
             </nuxt-link>
           </div>
@@ -352,9 +467,9 @@
                 <h3 class="project-category ">
                   Ogunjumelo Boluwatifemito
                 </h3>
-                <h4 class="project-name w-75">
+                <p class="project-name w-75">
                   Medical student 3rd year My energy 💯
-                </h4>
+                </p>
               </div>
             </nuxt-link>
           </div>
@@ -615,9 +730,7 @@ export default {
       errors: [],
       success: false,
       name: null,
-      phone: null,
-      subject: null,
-      message: null
+      phone: null
     }
   },
   methods: {
@@ -631,12 +744,6 @@ export default {
       if (!this.phone) {
         this.errors.push('Phone Numbers Needed')
       }
-      if (!this.subject) {
-        this.errors.push('Subject Needed')
-      }
-      if (!this.message) {
-        this.errors.push('Message Needed')
-      }
       if (!this.errors.length) {
         this.sendMessage()
       }
@@ -644,9 +751,9 @@ export default {
     },
     sendMessage () {
       axios.post(
-        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=${this.name} ${this.phone} ${this.subject} ${this.message}`
+        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=Please call me, Name:  ${this.name}, Phone Number:  ${this.phone}`
       )
-      this.name = this.phone = this.subject = this.message = null
+      this.name = this.phone = null
       this.success = true
     }
   }
@@ -1037,7 +1144,134 @@ export default {
   }
 }
 
-.feature-29192-wrap {
-  position: relative;
+#sidebar {
+  top: 22%;
+  height: 250px;
+  width: 10px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  z-index: 10;
+
+  p i {
+    left: 40px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .social {
+    margin-left: -200px;
+    width: 230px;
+    padding: 0;
+    display: inline-table;
+    height: 0px;
+    background-color: rgba(128, 128, 128, 0.73);
+    transition-property: margin-left;
+    -moz-transition-property: margin-left;
+    transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -ms-transition-property: margin-left;
+    -ms-transition-duration: 0.2s;
+    -ms-transition-delay: 0.2s;
+    -o-transition-property: margin-left;
+    -o-transition-duration: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-property: margin-left;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    box-shadow: 0px 0px 6px 0px #3e3d3d;
+    cursor: pointer;
+  }
+
+  .social:hover {
+    margin-left: -30px;
+    width: 230px;
+    background-color: #3b5998;
+  }
+
+  .facebook:hover {
+    background-color: #3b5998;
+  }
+
+  .twitter:hover {
+    background-color: #4099ff;
+  }
+
+  .instagram:hover {
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+  }
+
+  .call p i {
+    left: 52px;
+  }
+
+  .instagram p i {
+    left: 28px;
+  }
+
+  .youtube p i {
+    left: 25px;
+  }
+
+  .youtube:hover {
+    background-color: #e52d27;
+  }
+
+  .call:hover {
+    background-color: #2ecc71;
+  }
+
+  a {
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  p {
+    color: white;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    font-family: "Lato";
+  }
+}
+
+input.btn-call {
+  color: white;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  transition: 500ms all ease-in-out;
+  &:hover,
+  &:focus {
+    background: transparent;
+    border: none;
+    border-bottom: 2px #ced4da solid;
+    border-radius: 0;
+    outline: none;
+    color: #ced4da;
+  }
 }
 </style>
