@@ -1,11 +1,30 @@
 <template>
   <div id="theHeader">
-    <header id="header" class="header">
-      <div class="row">
-        <b-navbar-brand class=" theHeader-nav-brand mx-auto" to="/">
-          <b-img class="" src="~/assets/img/logo.svg" alt="logo " />
-        </b-navbar-brand>
-      </div>
+    <header class="main-header container">
+      <nav class="navbar-top navbar px-0">
+        <div class="col-sm-6 text-center text-sm-left p-0">
+          <a
+            href="index.html"
+            class="logo py-1"
+          >
+            <img
+              src="~/assets/img/logo.svg"
+              alt="Project Target"
+            >
+          </a>
+        </div>
+
+        <div class="col-sm-6 text-center text-sm-right p-0">
+          <audio
+            controls
+            autoplay
+            class="m-auto py-1"
+            style="color: red;"
+          >
+            <source src="https://node-08.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ">
+          </audio>
+        </div>
+      </nav>
     </header>
   </div>
 </template>
@@ -21,20 +40,41 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header {
-  box-shadow: none;
+.main-header {
+  width: 100%;
+  height: auto;
+  position: relative;
   top: 0;
-  padding: 10px 0;
+  left: 0;
 }
 
-.theHeader-nav-brand img {
-  left: 50%;
+.navbar-top {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-top .logo {
+  display: block;
+  width: auto;
+  left: 0;
+}
+.logo img {
+  width: 200px;
+}
+
+.navbar-social-links {
   position: absolute;
+  right: 0;
+}
 
-  transform: translateX(-50%);
+.navbar-social-links li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+}
 
-  min-height: 60px;
-  max-height: 60px;
-  height: 100%;
+.navbar-social-links li a {
+  font-size: 20px;
 }
 </style>

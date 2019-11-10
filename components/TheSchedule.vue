@@ -9,36 +9,36 @@
             </div>
             <div class="day-content">
               <div class="event gray">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>4 Assets</span>
-                  <span>20:00</span>
+                  <span>Pop</span>
+                  <span>00:00</span>
                 </footer>
               </div>
               <div class="event orange">
-                <span class="title">Event Name</span>
+                <span class="title">Time With Jesus</span>
                 <footer>
-                  <span>3 Assets</span>
-                  <span>21:30</span>
+                  <span>Devotion</span>
+                  <span>19:00</span>
                 </footer>
               </div>
               <div class="event red">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>African</span>
+                  <span>20:00</span>
                 </footer>
               </div>
               <div class="event blue">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>New songs</span>
+                  <span>22:30</span>
                 </footer>
               </div>
             </div>
             <div class="day-footer">
-              4 tasks
+              4 Activities
             </div>
           </div>
           <div class="day-column">
@@ -47,23 +47,23 @@
             </div>
             <div class="day-content">
               <div class="event purple">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Pop</span>
+                  <span>00:00</span>
                 </footer>
               </div>
 
               <div class="event blue">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Dj Francus</span>
+                  <span>12:00</span>
                 </footer>
               </div>
             </div>
             <div class="day-footer">
-              2 Tasks
+              2 Activities
             </div>
           </div>
           <div class="day-column">
@@ -72,20 +72,20 @@
             </div>
             <div class="day-content">
               <div class="event yellow">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Pp1</span>
+                  <span>00:00</span>
                 </footer>
               </div>
               <div class="event navy">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
+                  <span>Dj Francus</span>
                   <span>20:30</span>
                 </footer>
               </div>
-              <div class="event red">
+              <!-- <div class="event red">
                 <span class="title">Event Name</span>
                 <footer>
                   <span>Prop1</span>
@@ -98,10 +98,10 @@
                   <span>Prop1</span>
                   <span>20:30</span>
                 </footer>
-              </div>
+              </div> -->
             </div>
             <div class="day-footer">
-              4 tasks
+              2 Activities
             </div>
           </div>
           <div class="day-column">
@@ -110,43 +110,43 @@
             </div>
             <div class="day-content">
               <div class="event purple">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Pop</span>
+                  <span>00:00</span>
                 </footer>
               </div>
               <div class="event navy">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Dj Francus</span>
+                  <span>12:30</span>
                 </footer>
               </div>
               <div class="event orange">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>New Songs</span>
+                  <span>16:00</span>
                 </footer>
               </div>
               <div class="event red">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
+                  <span>Soul Music</span>
                   <span>20:30</span>
                 </footer>
               </div>
               <div class="event blue">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
+                  <span>Dj Francus</span>
                   <span>20:30</span>
                 </footer>
               </div>
             </div>
             <div class="day-footer">
-              5 Tasks
+              5 Activities
             </div>
           </div>
           <div class="day-column">
@@ -155,57 +155,57 @@
             </div>
             <div class="day-content">
               <div class="event purple">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Pop</span>
+                  <span>00:00</span>
                 </footer>
               </div>
               <div class="event navy">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Dj Francus</span>
+                  <span>12:30</span>
                 </footer>
               </div>
               <div class="event yellow">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>New Songs</span>
+                  <span>18:00</span>
                 </footer>
               </div>
               <div class="event navy">
-                <span class="title">Event Name</span>
+                <span class="title">Live Interviews</span>
                 <footer>
-                  <span>Prop1</span>
+                  <span>Biz</span>
                   <span>20:30</span>
                 </footer>
               </div>
               <div class="event red">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Soul Music</span>
+                  <span>21:30</span>
                 </footer>
               </div>
               <div class="event blue">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Dj Francus</span>
+                  <span>22:30</span>
                 </footer>
               </div>
               <div class="event orange">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Love</span>
+                  <span>23:00</span>
                 </footer>
               </div>
             </div>
             <div class="day-footer">
-              7 Tasks
+              7 Activities
             </div>
           </div>
           <div class="day-column">
@@ -214,36 +214,36 @@
             </div>
             <div class="day-content">
               <div class="event purple">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Pop</span>
+                  <span>00:00</span>
                 </footer>
               </div>
               <div class="event navy">
-                <span class="title">Event Name</span>
+                <span class="title">Scarlets Show</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Discussions</span>
+                  <span>16:00</span>
                 </footer>
               </div>
               <div class="event red">
-                <span class="title">Event Name</span>
+                <span class="title">Night Talz</span>
                 <footer>
-                  <span>Prop1</span>
+                  <span>Discussions</span>
                   <span>20:30</span>
                 </footer>
               </div>
               <div class="event blue">
-                <span class="title">Event Name</span>
+                <span class="title">Live Music</span>
                 <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
+                  <span>Dj Francus</span>
+                  <span>10:30</span>
                 </footer>
               </div>
             </div>
             <div class="day-footer">
-              4 Tasks
+              4 Activities
             </div>
           </div>
           <div class="day-column">
@@ -252,22 +252,22 @@
             </div>
             <div class="day-content">
               <div class="event gray">
+                <span class="title">Live Music</span>
+                <footer>
+                  <span>All day</span>
+                  <span>00:00</span>
+                </footer>
+              </div>
+              <!-- <div class="event blue">
                 <span class="title">Event Name</span>
                 <footer>
                   <span>Prop1</span>
                   <span>20:30</span>
                 </footer>
-              </div>
-              <div class="event blue">
-                <span class="title">Event Name</span>
-                <footer>
-                  <span>Prop1</span>
-                  <span>20:30</span>
-                </footer>
-              </div>
+              </div> -->
             </div>
             <div class="day-footer">
-              2 Tasks
+              1 Activity
             </div>
           </div>
         </div>
@@ -320,7 +320,7 @@ $title-color: #898b96;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
-  justify-content: center;
+  justify-content: flex-start;
   .day-column {
     display: flex;
     flex: 1;

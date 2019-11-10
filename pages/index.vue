@@ -1,7 +1,9 @@
 <template>
-  <div class="">
+  <div>
     <TheHeader />
-    <section class="masthead">
+    <TheHero />
+    <!-- <TheSwiper /> -->
+    <!-- <section class="masthead">
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
           <div class="col-lg-10 align-self-end">
@@ -137,9 +139,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="listen" class="page-section">
+    <!-- <section
+      id="listen"
+      class="page-section"
+    >
       <h2 class="text-center">
         Start Listening
         <div class="logo">
@@ -156,17 +161,24 @@
               />
             </div>
             <div class="player-iframe text-center mx-auto mt-5">
-              <audio controls autoplay class="mx-auto mt-5">
+              <audio
+                controls
+                autoplay
+                class="mx-auto mt-5"
+              >
                 <source src="https://node-08.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ">
               </audio>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
-    <section id="about" class="page-section bg-primary">
+    <section
+      id="about"
+      class="page-section bg-primary"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
@@ -182,7 +194,10 @@
       </div>
     </section>
 
-    <section id="listen" class="page-section">
+    <!-- <section
+      id="listen"
+      class="page-section"
+    >
       <h2 class="text-center">
         Our Anchors
       </h2>
@@ -198,7 +213,7 @@
             </div>
             <div class="player-iframe text-center mx-auto mt-5 text-white">
               <h4>Nuel</h4>
-              <P>"An ardent student of life. A work in progress" favourite quote:  "I laugh when I hear the fish in the water is thirsty"</P>
+              <P>"An ardent student of life. A work in progress" favourite quote: "I laugh when I hear the fish in the water is thirsty"</P>
             </div>
           </div>
         </div>
@@ -249,71 +264,111 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-      <div class="container-fluid p-0">
-        <h2 class="mt-0 text-center">
-          Weeks Schedule.
+      <div class="container-fluid p-0 mb-2">
+        <h2 class="mt-4 text-center">
+          Our Team.
         </h2>
         <hr class="divider my-4">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1530530698525-77a06a1088f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="~/assets/img/emmanuelT.jpeg"
+                alt=""
+              >
               <div class="portfolio-box-caption">
                 <h3 class="project-category">
-                  Monday
+                  Nuel
                 </h3>
-                <h4 class="project-name">
-                  School Talks
+                <h4 class="project-name w-75">
+                  "An ardent student of life. A work in progress" favourite quote: "I laugh when I hear the fish in the water is thirsty"
                 </h4>
               </div>
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/2.jpg" alt="">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="~/assets/img/joan.jpeg"
+                alt=""
+              >
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
-                  Tuesday
+                  Joan
                 </h3>
-                <h4 class="project-name">
-                  Life Talks
+                <h4 class="project-name w-75">
+                  A charismatic active young woman who is non apologetic to say her mind and live by it. A true african woman in her prime.
                 </h4>
               </div>
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="~/assets/img/melcom.jpeg"
+                alt=""
+              >
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
-                  Wednesdays
+                  Malcom
                 </h3>
-                <h4 class="project-name">
-                  Love and Relationships
+                <h4 class="project-name w-75">
+                  Med student from Ghana, Love novels and writing. "We are all here on a mission and should strive everyday to make proactive steps towards achieving that mission."
                 </h4>
               </div>
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="~/assets/img/portfolio/thumbnails/4.jpg" alt="">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="~assets/img/bolu.jpeg"
+                alt=""
+              >
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
-                  Thursday
+                  Ogunjumelo Boluwatifemito
                 </h3>
-                <h4 class="project-name">
-                  Open house discussions
+                <h4 class="project-name w-75">
+                  Medical student 3rd year My energy 💯
                 </h4>
               </div>
             </nuxt-link>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1546074177-9e4787e95be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
+          <!-- <div class="col-lg-4 col-sm-6">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="https://images.unsplash.com/photo-1546074177-9e4787e95be7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80"
+                alt=""
+              >
               <div class="portfolio-box-caption">
                 <h3 class="project-category ">
                   Friday
@@ -325,8 +380,16 @@
             </nuxt-link>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <nuxt-link class="portfolio-box" to="" @click.prevent>
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1539963011628-c076c7870cad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80" alt="">
+            <nuxt-link
+              class="portfolio-box"
+              to=""
+              @click.prevent
+            >
+              <img
+                class="img-fluid"
+                src="https://images.unsplash.com/photo-1539963011628-c076c7870cad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&h=350&q=80"
+                alt=""
+              >
               <div class="portfolio-box-caption p-3">
                 <h3 class="project-category ">
                   Saturday
@@ -336,28 +399,160 @@
                 </h4>
               </div>
             </nuxt-link>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
-    <!-- <TheSchedule /> -->
+    <h2 class="mt-4 text-center">
+      Weekly Lineup!
+    </h2>
+    <hr class="divider my-4">
+
+    <TheSchedule class="mb-4" />
+
+    <h2 class="mt-4 text-center">
+      Also Listen to Radio Power UA on:
+    </h2>
+    <hr class="divider my-4">
+
+    <div class="container mb-4">
+      <div class="row">
+        <div class="col-sm-4 my-2">
+          <div class="jeg_wrapper wpb_wrapper">
+            <div class="text-center">
+              <figure class="wpb_wrapper vc_figure">
+                <a
+                  href="https://zeno.fm/radiopower-ua"
+                  target="_blank"
+                  class="vc_single_image-wrapper   vc_box_border_grey"
+                >
+                  <svg
+                    viewBox="0 0 140.55 54.35"
+                    width="150"
+                    height="150"
+                  >
+                    <g>
+                      <path
+                        d="M46.11 45.24l-4 5.62h-.41l-4-5.62v9.11h-1.9V42.48H38L41.91 48l3.9-5.56H48v11.91h-1.9zm17.06 9.1H54.4V42.46h8.72v1.85H56.3v3.21h6.55v1.76H56.3v3.19h6.87zM73.5 42.46a5.63 5.63 0 0 1 6 5.84 5.63 5.63 0 0 1-6 6H69V42.46zm-2.61 10h2.61a3.87 3.87 0 0 0 4.07-4.22 3.86 3.86 0 0 0-4.07-4h-2.61zm14.23 1.88V42.46H87v11.88zm16.49-2.5h-6.43l-1.12 2.49H92l5.33-11.87h2.07l5.33 11.87h-2zm-3.21-7.38l-2.51 5.65h5z"
+                        fill="#fff"
+                      />
+                      <path
+                        fill="#49a1d0"
+                        d="M76.13 29.29V2.03l24.96 24.96V4.33h1.9v27.26L78.04 6.64v22.65h-1.91z"
+                      />
+                      <circle
+                        fill="#49a1d0"
+                        cx="102.04"
+                        cy="4.34"
+                        r="3.86"
+                      />
+                      <circle
+                        fill="#49a1d0"
+                        cx="77.08"
+                        cy="29.29"
+                        r="3.86"
+                      />
+                      <path
+                        fill="#49a1d0"
+                        d="M28.81 29.77H1.55L26.51 4.81H3.86V2.9h27.26L6.16 27.86h22.65v1.91z"
+                      />
+                      <circle
+                        fill="#49a1d0"
+                        cx="3.86"
+                        cy="3.86"
+                        r="3.86"
+                      />
+                      <circle
+                        fill="#49a1d0"
+                        cx="28.81"
+                        cy="28.81"
+                        r="3.86"
+                      />
+                      <path
+                        class="hover-light"
+                        fill="#49a1d0"
+                        d="M126.39 31a14.16 14.16 0 1 1 14.16-14.16A14.18 14.18 0 0 1 126.39 31zm0-25.91a11.75 11.75 0 1 0 11.75 11.75 11.76 11.76 0 0 0-11.75-11.78zM41.71 15.35h23.57v1.97H41.71zm0-12.45h23.57v1.97H41.71zm0 24.9h23.57v1.97H41.71z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </figure>
+              <h4 class="wpb_heading wpb_singleimage_heading">
+                Zeno Media
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-2">
+          <div class="jeg_wrapper wpb_wrapper">
+            <div class="text-center">
+              <figure class="wpb_wrapper vc_figure">
+                <a
+                  href="https://tunein.com/radio/RadiopowerUA-s300866/"
+                  target="_blank"
+                  class="vc_single_image-wrapper   vc_box_border_grey"
+                ><img
+                  width="150"
+                  height="150"
+                  src="http://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                  srcset="http://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg 150w, http://citifmonline.com/wp-content/uploads/2019/10/tune-in-75x75.jpg 75w"
+                  sizes="(max-width: 150px) 100vw, 150px"
+                ></a>
+              </figure>
+              <h4 class="wpb_heading wpb_singleimage_heading">
+                TuneIN.com
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-2">
+          <div class="jeg_wrapper wpb_wrapper">
+            <div class="text-center">
+              <figure class="wpb_wrapper vc_figure">
+                <a
+                  href="https://radio.garden/listen/radio-power-ua/iWTyUgC-"
+                  target="_blank"
+                  class="vc_single_image-wrapper   vc_box_border_grey"
+                ><img
+                  width="150"
+                  height="150"
+                  src="http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-150x150.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                  srcset="http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-150x150.jpg 150w, http://citifmonline.com/wp-content/uploads/2019/10/radio-garden-75x75.jpg 75w"
+                  sizes="(max-width: 150px) 100vw, 150px"
+                ></a>
+              </figure>
+              <h4 class="wpb_heading wpb_singleimage_heading">
+                RadioGarden.com
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Section -->
-    <section id="contact" class="page-section">
+    <section
+      id="contact"
+      class="page-section"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h2 class="mt-0">
-              Feel Free To Get In Touch!
+              Events
             </h2>
             <hr class="divider my-4">
             <p class="text-muted mb-5">
-              For any enquires or questions, feel free to contact us here.
+              Comming soon!
             </p>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
             <i class="fas fa-phone fa-3x mb-3 text-muted" />
             <div>
@@ -387,7 +582,7 @@
               href="mailto:info@radiopowerua.com"
             >info@radiopowerua.com</a>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -395,7 +590,11 @@
     <footer class="bg-light py-5">
       <div class="container">
         <h5 class="medium text-center text-muted">
-          Made with ❤️ &copy; in 2019 - {{ new Date().getFullYear() }} By <a href="https://neniemsu.com" target="_blank" rel="author">NeniEmsu</a>
+          Made with ❤️ &copy; in 2019 - {{ new Date().getFullYear() }} By <a
+            href="https://neniemsu.com"
+            target="_blank"
+            rel="author"
+          >NeniEmsu</a>
         </h5>
       </div>
     </footer>
@@ -405,12 +604,16 @@
 <script>
 import axios from 'axios'
 import TheHeader from '~/components/TheHeader.vue'
-// import TheSchedule from '~/components/TheSchedule'
+import TheHero from '~/components/TheHero'
+// import TheSwiper from '~/components/TheSwiper'
+import TheSchedule from '~/components/TheSchedule'
 
 export default {
   components: {
-    TheHeader
-    // TheSchedule
+    TheHeader,
+    TheHero,
+    // TheSwiper,
+    TheSchedule
   },
   data () {
     return {
@@ -455,31 +658,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.masthead {
-  margin-top: -30px;
-  height: 100vh;
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - #{$navbar-height});
-  background: linear-gradient(
-      115deg,
-      rgba(54, 54, 54, 0.5) -4.64%,
-      rgba(35, 36, 36, 0.5) 51.9%
-    ),
-    url("~assets/img/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  h1 {
-    font-size: 2.25rem;
-  }
-  @media screen and (max-width: 425px) {
-    padding-top: 5rem;
-    padding-bottom: calc(10rem - #{$navbar-height});
-  }
-}
-
+<style lang="scss" scoped>
 #about {
   background: linear-gradient(
       115deg,
@@ -491,43 +670,6 @@ export default {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-form {
-  margin-bottom: 20px;
-}
-
-input,
-textarea {
-  background: transparent;
-  border: none;
-  border-bottom: 2px #ced4da solid;
-  border-radius: 0;
-  outline: none;
-}
-
-input.btn-send {
-  color: white;
-  border: 2px solid;
-  border-radius: 3px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-family: sans-serif;
-  font-size: 20px;
-  width: 13em;
-  padding: 5px 10px;
-  font-weight: 600;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
-  &:hover,
-  &:focus {
-    background: transparent;
-    border: none;
-    border-bottom: 2px #ced4da solid;
-    border-radius: 0;
-    outline: none;
-  }
 }
 
 .icon {
@@ -684,102 +826,102 @@ input.btn-send {
   background-image: url(~assets/img/bolu.jpeg);
 }
 
-.chevron-container {
-  position: relative;
-  width: 24px;
-  height: 24px;
+// .chevron-container {
+//   position: relative;
+//   width: 24px;
+//   height: 24px;
 
-  top: -20px;
-  z-index: 16;
-}
+//   top: -20px;
+//   z-index: 16;
+// }
 
-.chevron {
-  // position: absolute;
-  width: 28px;
-  height: 8px;
-  opacity: 0;
-  transform: scale3d(0.5, 0.5, 0.5);
-  animation: move 3s ease-out infinite;
+// .chevron {
+//   // position: absolute;
+//   width: 28px;
+//   height: 8px;
+//   opacity: 0;
+//   transform: scale3d(0.5, 0.5, 0.5);
+//   animation: move 3s ease-out infinite;
 
-  z-index: 100;
-}
+//   z-index: 100;
+// }
 
-.chevron:first-child {
-  animation: move 3s ease-out 1s infinite;
-}
+// .chevron:first-child {
+//   animation: move 3s ease-out 1s infinite;
+// }
 
-.chevron:nth-child(2) {
-  animation: move 3s ease-out 2s infinite;
-}
+// .chevron:nth-child(2) {
+//   animation: move 3s ease-out 2s infinite;
+// }
 
-.chevron:before,
-.chevron:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 51%;
-  background: whitesmoke;
-}
+// .chevron:before,
+// .chevron:after {
+//   content: " ";
+//   position: absolute;
+//   top: 0;
+//   height: 100%;
+//   width: 51%;
+//   background: whitesmoke;
+// }
 
-.chevron:before {
-  left: 0;
-  transform: skew(0deg, 30deg);
-}
+// .chevron:before {
+//   left: 0;
+//   transform: skew(0deg, 30deg);
+// }
 
-.chevron:after {
-  right: 0;
-  width: 50%;
-  transform: skew(0deg, -30deg);
-}
+// .chevron:after {
+//   right: 0;
+//   width: 50%;
+//   transform: skew(0deg, -30deg);
+// }
 
-@keyframes move {
-  25% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 1;
-    transform: translateY(30px);
-  }
-  67% {
-    opacity: 1;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-  }
-}
+// @keyframes move {
+//   25% {
+//     opacity: 1;
+//   }
+//   33% {
+//     opacity: 1;
+//     transform: translateY(30px);
+//   }
+//   67% {
+//     opacity: 1;
+//     transform: translateY(40px);
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+//   }
+// }
 
-.text {
-  display: block;
-  margin-top: -25px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: whitesmoke;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: 0.25;
-  animation: pulse 2s linear alternate infinite;
-}
+// .text {
+//   display: block;
+//   margin-top: -25px;
+//   margin-left: -30px;
+//   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+//   font-size: 12px;
+//   color: whitesmoke;
+//   text-transform: uppercase;
+//   white-space: nowrap;
+//   opacity: 0.25;
+//   animation: pulse 2s linear alternate infinite;
+// }
 
-@keyframes pulse {
-  to {
-    opacity: 1;
-  }
-}
+// @keyframes pulse {
+//   to {
+//     opacity: 1;
+//   }
+// }
 
-@media screen and (max-width: 425px) {
-  .chevron-container {
-    position: relative;
-    width: 24px;
-    height: 24px;
+// @media screen and (max-width: 425px) {
+//   .chevron-container {
+//     position: relative;
+//     width: 24px;
+//     height: 24px;
 
-    cursor: pointer;
-    z-index: 16;
-  }
-}
+//     cursor: pointer;
+//     z-index: 16;
+//   }
+// }
 
 // Styling for the portfolio section
 #portfolio {
@@ -805,7 +947,7 @@ input.btn-send {
 
         color: white;
         background: fade-out($primary, 0.1);
-        transition: opacity 0.25s ease;
+        transition: opacity 0.5s ease;
         text-align: center;
         .project-category {
           font-family: $font-family-sans-serif;
@@ -824,11 +966,20 @@ input.btn-send {
       }
       @media screen and (max-width: 780px) {
         .portfolio-box-caption {
-          opacity: 0.8;
+          width: 100%;
+          height: 50%;
+          opacity: 0.6;
+          transition: opacity 0.5s ease;
 
           .project-category,
           .project-nane {
             opacity: 1;
+          }
+
+          &:hover,
+          &:focus,
+          &:focus-within {
+            height: 100%;
           }
         }
       }
@@ -889,5 +1040,9 @@ input.btn-send {
     color: inherit;
     text-shadow: inherit;
   }
+}
+
+.feature-29192-wrap {
+  position: relative;
 }
 </style>
