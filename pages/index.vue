@@ -498,7 +498,6 @@
                   src="http://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg"
                   class="img-fluid rounded-circle"
                   alt=""
-                  srcset="http://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg 150w, http://citifmonline.com/wp-content/uploads/2019/10/tune-in-75x75.jpg 75w"
                   sizes="(max-width: 150px) 100vw, 150px"
                 ></a>
               </figure>
