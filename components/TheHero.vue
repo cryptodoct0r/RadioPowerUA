@@ -309,7 +309,7 @@ input.btn-send {
   }
 }
 
-@import url(//fonts.googleapis.com/css?family=Vibur);
+// @import url(//fonts.googleapis.com/css?family=Vibur);
 
 .logo {
   user-select: none;

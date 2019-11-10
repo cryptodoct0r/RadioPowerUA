@@ -493,7 +493,7 @@
                 ><img
                   width="120"
                   height="120"
-                  src="https://citifmonline.com/wp-content/uploads/2019/10/tune-in-150x150.jpg"
+                  src="~/assets/img/tune-in-150x150.jpg"
                   class="img-fluid rounded-circle"
                   alt=""
                   sizes="(max-width: 150px) 100vw, 150px"
@@ -515,7 +515,7 @@
                 ><img
                   width="120"
                   height="120"
-                  src="https://citifmonline.com/wp-content/uploads/2019/10/radio-garden-150x150.jpg"
+                  src="~/assets/img/radio-garden-150x150.jpg"
                   class="img-fluid rounded-circle"
                   alt=""
                   sizes="(max-width: 150px) 100vw, 150px"
