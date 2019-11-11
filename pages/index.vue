@@ -32,7 +32,6 @@
         @submit.stop.prevent="checkForm"
       >
         <b-form-group
-          :state="nameState"
           label="Name"
           label-for="name-input"
           invalid-feedback="Name is required"
@@ -40,12 +39,10 @@
           <b-form-input
             id="name-input"
             v-model="name"
-            :state="nameState"
             required
           />
         </b-form-group>
         <b-form-group
-          :state="nameState"
           label="Number"
           label-for="number-input"
           invalid-feedback="Number is required"
@@ -53,7 +50,6 @@
           <b-form-input
             id="number-input"
             v-model="phone"
-            :state="numberState"
             required
           />
         </b-form-group>
@@ -1064,14 +1060,23 @@ export default {
       &:hover {
         .portfolio-box-caption {
           opacity: 1;
+          height: 100%;
+
+          p {
+            display: block;
+          }
         }
       }
       @media screen and (max-width: 780px) {
         .portfolio-box-caption {
           width: 100%;
-          height: 50%;
-          opacity: 0.6;
+          height: 20%;
+          opacity: 0.8;
           transition: opacity 0.5s ease;
+
+          p {
+            display: none;
+          }
 
           .project-category,
           .project-nane {
@@ -1082,6 +1087,10 @@ export default {
           &:focus,
           &:focus-within {
             height: 100%;
+
+            p {
+              display: block;
+            }
           }
         }
       }
@@ -1091,7 +1100,7 @@ export default {
 
 // neon lights
 
-@import url(//fonts.googleapis.com/css?family=Vibur);
+// @import url(//fonts.googleapis.com/css?family=Vibur);
 
 .logo {
   text-align: center;
@@ -1153,6 +1162,10 @@ export default {
   padding: 10px;
   margin-left: 10px;
   z-index: 10;
+
+  @media screen and (max-width: 425px) {
+    top: 85%;
+  }
 
   p i {
     left: 40px;
@@ -1231,6 +1244,15 @@ export default {
 
   .call:hover {
     background-color: #2ecc71;
+  }
+
+  .youtube,
+  .instagram,
+  .twitter,
+  .facebook {
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
   }
 
   a {
