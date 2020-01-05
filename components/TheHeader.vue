@@ -3,15 +3,15 @@
     <header class="main-header container">
       <nav class="navbar-top navbar px-0">
         <div class="col-sm-6 text-center text-sm-left p-0">
-          <a
-            href="index.html"
+          <nuxt-link
+            to=""
             class="logo py-1"
           >
             <img
               src="~/assets/img/logo.svg"
               alt="Project Target"
             >
-          </a>
+          </nuxt-link>
         </div>
 
         <div class="col-sm-6 text-center text-sm-right p-0">
