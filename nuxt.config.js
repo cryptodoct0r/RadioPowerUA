@@ -64,6 +64,9 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     'fullpage-nuxt',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-1797281199494379'
+    }],
     [
       'vue-scrollto/nuxt',
       {
