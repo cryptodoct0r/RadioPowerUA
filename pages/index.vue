@@ -95,7 +95,7 @@
       </div>
       <div class="social youtube">
         <a
-          href="https://www.youtube.com"
+          href="https://www.youtube.com/channel/UCzPVQC0pzCN8JQojUT1z3dQ"
           target="_blank"
         >
           <p>Subscribe on Youtube<i class="fab fa-youtube" /> </p>
