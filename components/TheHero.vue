@@ -153,7 +153,7 @@ export default {
     },
     sendMessage () {
       axios.post(
-        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=Name: ${this.name}, Subject: ${this.subject}, Message: ${this.message}`
+        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=%0AName: ${this.name}, %0ASubject: ${this.subject}, %0AMessage: ${this.message}`
       )
       this.name = this.subject = this.message = null
       this.success = true
