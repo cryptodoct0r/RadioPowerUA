@@ -747,7 +747,7 @@ export default {
     },
     sendMessage () {
       axios.post(
-        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=Please call me, Name:  ${this.name}, Phone Number:  ${this.phone}`
+        `https://api.telegram.org/bot971666849:AAEPhgDVYttaZZxm35uC5IFU-YO3MdH8nh0/sendMessage?chat_id=-1001231729418&text=Please call me, %0AName:  ${this.name}, %0APhone Number:  ${this.phone}`
       )
       this.name = this.phone = null
       this.success = true
