@@ -21,7 +21,7 @@
             class="m-auto py-1"
             style="color: red;"
           >
-            <source src="https://node-08.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ">
+            <source src="https://node-25.zeno.fm/2nbarxy58gruv?rj-ttl=5&rj-token=AAABbaz-hYmOGrId5LpDft3ShkPFG2ZoMeFGDoQpcTKrHQs2CDcwyQ&rj-tok=AAABcBowxjEAD9-yb1pypjSejA">
           </audio>
         </div>
       </nav>
